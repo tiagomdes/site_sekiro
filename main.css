@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Sancreek', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #252020;
+    color:#b0a9a9;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: none;
+}
+
+header nav li a {
+    color: #b0a9a9;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-list img {
+    height: 60px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #252020;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.game-banner {
+    margin-right: 32px;
+    height: 480px;
+    width: 640px;
+}
+
+.plataforms img {
+    height: 35px;
+}
+
+.plataforms li {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.plataforms li a {
+    text-decoration: none;
+}
+
+#buy .container {
+    display: block;
+}
+
+.where-buy {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #252020;
+    color: #b0a9a9;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #362c2c;
+}
+
+input:focus, textarea:focus {
+    outline-color: #252020;
+}
+
+footer {
+    background-color: #252020;
+    color: #b0a9a9;
+    padding: 16px 0;
+    font-size: 10px;
+}
